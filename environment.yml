@@ -1,0 +1,5 @@
+name: diffusionwork
+channels:
+  - conda-forge
+  - nodefaults
+prefix: /home/abrash/.conda/envs/diffusionwork
