@@ -16,3 +16,63 @@ If you found this work useful, please cite accordingly:
   year = {2025}
 }
 ```
+
+🔹 Models
+LVGenU — Unconditional
+
+Generates load profiles with no external inputs.
+Learns general patterns directly from historical data.
+
+LVGenWC — Weather & Calendar Conditioned
+
+Generates load profiles conditioned on:
+
+Weather data
+Calendar features
+Customer information
+LVGenWCS — Extended Conditioning
+
+Same as LVGenWC, but also includes:
+
+Daily minimum
+Daily mean
+Daily maximum
+🏋️ Training
+
+Each model has its own training script in Training/.
+
+▶️ Run Training
+cd Training
+python LVGenU_Train.py
+
+(or replace with LVGenWC_Train.py or LVGenWCS_Train.py)
+
+💾 Output
+
+Checkpoints are saved to:
+
+Training/results/<MODEL>/T.../XXXX.pkl
+
+Example:
+
+Training/results/LVGenU/T200_beta00.0001_betaT0.02/10000.pkl
+🔍 Inference (Generation)
+
+Each model has its own inference script in Inference/.
+
+▶️ Run Inference
+cd Inference
+python LVGenU_Inference.py --ckpt_iter 10000
+
+or use the latest checkpoint:
+
+python LVGenU_Inference.py --ckpt_iter max
+📤 Output
+
+Generated samples are saved to:
+
+Inference/results/<MODEL>/T.../
+
+Example:
+
+Inference/results/LVGenU/T200_beta00.0001_betaT0.02/
