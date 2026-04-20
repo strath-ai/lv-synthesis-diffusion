@@ -23,6 +23,17 @@ abstract = {Limited visibility of distribution network power flows at the low vo
 }
 ```
 
+## ⚙️ Setup
+
+This project uses a micromamba/conda environment.
+
+### Create environment
+
+```bash
+micromamba create -f environment.yml
+micromamba activate diffusionwork
+
+
 ## 🔹 Models
 
 ### LVGenU — Unconditional
