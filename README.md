@@ -32,7 +32,7 @@ This project uses a micromamba/conda environment.
 ```bash
 micromamba create -f environment.yml
 micromamba activate diffusionwork
-
+```
 
 ## 🔹 Models
 
