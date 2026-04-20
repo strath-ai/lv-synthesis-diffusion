@@ -9,11 +9,17 @@ A PyTorch-based framework for generating realistic low-voltage (LV) electricity 
 If you found this work useful, please cite accordingly:
 
 ```bibtex
-@Article{brash2025,
-  author = {Brash, Alistair and Lu, Junyi and Stephen, Bruce and Brown, Blair and Atkinson, Robert and Michie, Craig and MacIntyre, Fraser and Tachtatzis, Christos},
-  title = {Coherent Load Profile Synthesis with Conditional Diffusion for LV Distribution Network Scenario Generation},
-  journal = {Sustainable Energy, Grids and Networks},
-  year = {2025}
+@article{BRASH2026102264,
+title = {Coherent load profile synthesis with conditional diffusion for LV distribution network scenario generation},
+journal = {Sustainable Energy, Grids and Networks},
+pages = {102264},
+year = {2026},
+issn = {2352-4677},
+doi = {https://doi.org/10.1016/j.segan.2026.102264},
+url = {https://www.sciencedirect.com/science/article/pii/S2352467726001463},
+author = {Alistair Brash and Junyi Lu and Bruce Stephen and Blair Brown and Robert Atkinson and Craig Michie and Fraser MacIntyre and Christos Tachtatzis},
+keywords = {Load modelling, Power systems modelling, Neural network applications, Generative modelling},
+abstract = {Limited visibility of distribution network power flows at the low voltage level presents challenges to both distribution network operators from a planning perspective and distribution system operators from a congestion management perspective. More representative loads are required to support meaningful analysis of LV substations; otherwise, such analysis risks misinforming future decisions. Traditional load profiling relies on typical profiles, oversimplifying substation-level complexity. Generative models have attempted to address this through synthesising representative loads from historical exemplars; however, while these approaches can approximate load shapes to a convincing degree of fidelity, analysis of the co-behaviour between substations is limited, which ultimately impacts higher voltage level network operation. This limitation will become even more pronounced with the increasing integration of low-carbon technologies, as estimates of base loads fail to capture load diversity. To address this gap, Conditional Diffusion models for synthesising daily active and reactive power profiles at the low voltage distribution substation level are proposed. The evaluation of fidelity is demonstrated through conventional metrics capturing temporal and statistical realism, as well as power flow modelling. Multiple models are proposed to handle varying levels of data availability, ranging from unconditional synthesis to an informed generation driven by metadata and daily statistics. The results show synthesised load profiles are plausible both independently and as a cohort in a wider power systems context. The Conditional Diffusion model is benchmarked against naive and commonly used generative models to demonstrate its effectiveness in producing realistic scenarios on which to base sub-regional power distribution network planning and operations.}
 }
 ```
 
