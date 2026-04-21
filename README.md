@@ -36,6 +36,9 @@ micromamba activate diffusionwork
 
 ## 🔹 Models
 
+This repo contains code for running the three models mentioned in the research paper.  
+These implementations can also be extended with additional data or adapted for related tasks.
+
 ### LVGenU — Unconditional
 Generates load profiles with no external inputs.  
 Learns general patterns directly from historical data.
