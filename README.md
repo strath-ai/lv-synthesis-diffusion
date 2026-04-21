@@ -50,7 +50,7 @@ Generates load profiles conditioned on:
 - Customer information  
 
 ### LVGenWCS — Extended Conditioning
-Same as LVGenWC, but also includes for both active and reactive power:
+Same as LVGenWC, but also includes, for both active and reactive power:
 - Daily minimum 
 - Daily mean  
 - Daily maximum  
